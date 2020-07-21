@@ -1,10 +1,10 @@
 package com.springframework.springpetclinic.services;
 
-import com.springframework.springpetclinic.model.Owner;
 import com.springframework.springpetclinic.model.Pet;
 
-import java.util.Set;
-
-public interface PetService extends CrudService<Pet, Long>{
+/**
+ * Created by jt on 7/18/18.
+ */
+public interface PetService extends CrudService<Pet, Long> {
 
 }

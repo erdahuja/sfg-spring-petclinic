@@ -2,7 +2,12 @@ package com.springframework.springpetclinic.model;
 
 import java.io.Serializable;
 
+/**
+ * Created by jt on 7/18/18.
+ */
 public class BaseEntity implements Serializable {
+
+    private Long id;
 
     public Long getId( ) {
         return id;
@@ -10,11 +15,5 @@ public class BaseEntity implements Serializable {
 
     public void setId(Long id) {
         this.id = id;
-    }
-
-    private Long id;
-
-    public boolean isNew( ) {
-        return this.id == null;
     }
 }
